@@ -6,7 +6,7 @@ This repository contains the implementation and evaluation of a prefix-based str
 
 ---
 
-## 🚀Project Overview
+## Project Overview
 Controlled text generation aims to produce outputs following specific structural guidelines rather than random content. This project reproduces and extends the methodology proposed by **Alhafni et al. (2024)**, using explicit "Linguistic Control Bins" to steer model output.
 
 ### Key Contributions:
