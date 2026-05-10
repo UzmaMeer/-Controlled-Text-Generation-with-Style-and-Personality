@@ -26,23 +26,6 @@ The core idea is to embed structural control signals (e.g., sentence count, noun
 
 ---
 
-##  Experimental Results
-
-### Quantitative Metrics
-| Metric | Baseline (Original) | Our Results (Pythia-70M) |
-| :--- | :--- | :--- |
-| **Noun Density Success** | ~90% | **100.0%** |
-| **Sentence Count Success** | ~15% | **33.3%** (100% for Bin 1) |
-| **Evaluation Loss** | Not Reported | **3.745** |
-| **Perplexity (PPL)** | 67.36 | **16.56** (After News Adaptation) |
-| **Mean Success Rate** | 16.7% | **66.6%** |
-
-### Key Findings:
-1.  **Instruction Adherence:** Small models like Pythia-70M are highly capable of learning POS distributions (100% Noun success).
-2.  **Domain Portability:** Structural patterns learned from informal reviews generalized effectively to formal news, evidenced by the sharp drop in perplexity from 67.36 to 16.56.
-3.  **Capacity Limits:** While morpho-syntactic control is robust, precise discrete counting (sentences) remains a challenge for 70M parameter architectures beyond simple counts.
-
----
 
 ##  Dataset Details
 * **Reproduction Phase:** 30,000 samples (15,000 Blogs + 15,000 IMDb).
