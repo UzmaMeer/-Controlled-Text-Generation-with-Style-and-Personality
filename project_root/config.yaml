@@ -1,0 +1,32 @@
+# Training Hyperparameters
+training:
+  epochs: 5
+  learning_rate: 5e-5
+  warmup_steps: 150
+  weight_decay: 0.05
+  per_device_train_batch_size: 32
+  gradient_accumulation_steps: 1
+  lr_scheduler_type: "cosine"
+  block_size: 512
+
+# Domain Adaptation (Assignment 3) Training
+domain_adaptation:
+  epochs: 3
+  learning_rate: 3e-5
+  per_device_train_batch_size: 32
+  block_size: 512
+
+# Inference Configuration
+inference:
+  max_new_tokens: 60
+  temperature: 0.45
+  repetition_penalty: 1.2
+  top_p: 0.90
+  top_k: 40
+
+# Paths
+paths:
+  data_dir: "data"
+  processed_dir: "data/processed"
+  model_dir: "checkpoints/pythia_3bin_base"
+  output_dir: "checkpoints/pythia_70m_trained"

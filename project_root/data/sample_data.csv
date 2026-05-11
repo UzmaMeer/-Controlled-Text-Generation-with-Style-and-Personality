@@ -1,0 +1,6 @@
+text,author,domain,title
+"The financial markets are showing strong signs of recovery.",News_user,News,post_or_review
+"I went to the park today and it was lovely.",Blogs_user,Blogs,post_or_review
+"This movie had terrible pacing and bad acting.",IMDb_user,IMDb,post_or_review
+"Economic policies announced today indicate growth.",News_user,News,post_or_review
+"My new dog is the absolute best companion.",Blogs_user,Blogs,post_or_review

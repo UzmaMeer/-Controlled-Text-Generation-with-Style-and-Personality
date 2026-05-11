@@ -1,0 +1,7 @@
+{
+  "model": "Original (Base)",
+  "Evaluation Loss (News Dataset)": 4.21,
+  "Perplexity (PPL)": 67.36,
+  "Attribute Success Rate (%)": 16.7,
+  "Control Accuracy (Cross-Domain)": "Low (Zero-Shot)"
+}

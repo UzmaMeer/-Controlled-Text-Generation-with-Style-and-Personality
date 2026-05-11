@@ -1,0 +1,8 @@
+accelerate
+datasets
+nltk
+pandas
+peft
+scikit-learn
+torch
+transformers

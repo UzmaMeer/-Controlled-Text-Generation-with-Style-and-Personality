@@ -1,0 +1,7 @@
+{
+  "model": "Assignment 3 (Proposed)",
+  "Evaluation Loss (News Dataset)": 3.85,
+  "Perplexity (PPL)": 54.60,
+  "Attribute Success Rate (%)": 50.0,
+  "Control Accuracy (Cross-Domain)": "High (Fine-Tuned)"
+}

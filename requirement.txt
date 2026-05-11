@@ -1,8 +1,0 @@
-scikit-learn
-torch
-transformers
-accelerate
-peft
-datasets
-nltk
-pandas
